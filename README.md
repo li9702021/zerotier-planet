@@ -401,3 +401,42 @@ services:
 
 
 # 捐款和支持
+
+如果觉得本项目对您有帮助，欢迎通过扫描下方赞赏码捐助项目 :)
+
+<img src="assets/donate.png" alt="donate" width="400" height="400" />
+
+# 鸣谢
+感谢以下网友投喂，你们的支持和鼓励是我不懈更新的动力
+
+按时间顺序排序：
+- 随性
+- 我
+- 你好
+- Calvin
+- 小猪猪的饲养员
+- 情若犹在
+- 天天星期天
+- 啊乐
+- 夏末秋至
+- **忠
+- 岸芷汀兰
+- Kimi Chen
+- 匿名
+- 阳光报告旷课
+- 濂溪先生
+- Water
+- 匿名
+- 匿名
+- 陆
+- 精钢葫芦娃
+- 唯
+- 王小新
+- 匿名
+- Duck不必
+
+
+# 参考链接
+[ZeroTier-虚拟局域网详解](https://www.glimmer.ltd/2021/3299983056/)
+
+[五分钟自建 ZeroTier 的 Planet/Controller](https://v2ex.com/t/799623)
