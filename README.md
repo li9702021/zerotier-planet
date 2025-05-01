@@ -294,7 +294,7 @@ server {
 ```
 
 # 6. 卸載
-『`bash
+```bash
 docker rm -f zerotier-planet
 ```
 
