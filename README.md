@@ -48,22 +48,22 @@ https://github.com/xubiaolin/docker-zerotier-planet.git
 在開始安裝之前，請確保您的伺服器符合以下條件:
 
 - 伺服器需求:
- - 擁有公網IP位址
- - 需開放以下連接埠:
-   - 3443/tcp (管理面板，依實際情況調整)
-   - 9994/tcp (ZeroTier通信，依實際情況調整)
-   - 9994/udp (ZeroTier通信，依實際情況調整)
+  - 擁有公網IP位址
+  - 需開放以下連接埠:
+    - 3443/tcp (管理面板，依實際情況調整)
+    - 9994/tcp (ZeroTier通信，依實際情況調整)
+    - 9994/udp (ZeroTier通信，依實際情況調整)
 
 - 軟體依賴:
- - Docker (容器運行環境)
- - Git (取得項目代碼)
+  - Docker (容器運行環境)
+  - Git (取得項目代碼)
 
 - 系統需求:
- - 推薦使用較新的Linux發行版:  
-  - Debian 12
-  - Ubuntu 20.04+
-  - Rocky Linux
-  - 其他同類系統
+  - 推薦使用較新的Linux發行版:  
+    - Debian 12
+    - Ubuntu 20.04+
+    - Rocky Linux
+    - 其他同類系統
 
 ### 3.1.1 安裝git
 ```bash
