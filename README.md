@@ -16,6 +16,8 @@ https://github.com/xubiaolin/docker-zerotier-planet.git
 
 簡單來說，`ZeroTier` 就像是一個跨越互聯網的"虛擬交換機"，讓分佈在世界各地的設備，都能像在同一個區域網路內一樣方便地相互訪問。
 
+![zerotier](assets/zerotier-network.png)
+
 **ZeroTier 網路中的關鍵概念**
 
 `PLANET`（行星伺服器）：ZeroTier 網路的核心根伺服器，負責網路發現和初始連線。相當於整個網路的"中樞"。
@@ -135,7 +137,9 @@ cd docker-zerotier-planet
 
 整個腳本預計需要 1-3 分鐘,具體需要看網路與機型
 
+當你看到類似如下字樣時，表示安裝成功
 
+![install-finish](./assets/install_finish.png)
 
 ## 3.4 下載 `planet` 文件
 腳本執行完成後，會在 `./data/zerotier/dist` 目錄下產生 `planet` 和 `moon` 設定檔。
@@ -150,6 +154,8 @@ cd docker-zerotier-planet
 ## 3.5 新建網絡
 造訪 `http://ip:3443` 進入controller頁面
 
+![ui](assets/ztncui.png)
+
 使用預設帳號為:`admin`
 
 預設密碼為:`password`
@@ -161,11 +167,18 @@ cd docker-zerotier-planet
 
 建立成功後系統會自動產生一個網路ID，這個ID在後續客戶端設定時會用到，請記錄下來。
 
+![ui](assets/ztncui_create_net.png)
+
 得到網路 `id`
+
+![ui](assets/ztncui_net_id.png)
 
 ### 3.5.2 分配網路IP:
 選取easy setup
+![assign_id](./assets/easy_setup.png)
+
 產生ip範圍
+![ip_addr](./assets/network_addr.png)
 
 # 4.客戶端配置
 ZeroTier 支援多種主流作業系統的客戶端，包括:
@@ -181,7 +194,11 @@ ZeroTier 支援多種主流作業系統的客戶端，包括:
 
 Win+S 搜尋 `服務`
 
+![ui](assets/service.png)
+
 找到ZeroTier One，並且重啟服務
+
+![ui](assets/restart_service.png)
 
 ### 4.2 加入網絡
 使用管理員身分開啟PowerShell
@@ -195,7 +212,11 @@ PS C:\Windows\system32>
 
 登入管理後台可以看到有個新的客戶端，勾選`Authorized`就行
 
+![ui](assets/join_net.png)
+
 IP assignment 裡面會出現zerotier的內網ip
+
+![ip](./assets/allow_devices.png)
 
 執行如下命令：
 ```
